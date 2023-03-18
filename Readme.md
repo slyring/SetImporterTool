@@ -29,10 +29,11 @@ Master material setup in this scenario.
 
 ![Master material in UE](/.res/img_master_material.png)
 
-The parameter name need to match the naming in python code
-https://github.com/slyring/SetImporterTool/blob/abfd644ae3a954b369f2307561a2ea067ab708f2/Importer.py#L152-L161
-
 ## Further modifications to fit other pipeline
+
+The parameter name need to match the naming in python code. Any mask pack can be used instead of just RMA as long as the names are matching.
+
+https://github.com/slyring/SetImporterTool/blob/abfd644ae3a954b369f2307561a2ea067ab708f2/Importer.py#L152-L161
 
 Add the suffix to this array. Doing this will set such texture asset as mask automatically
 
